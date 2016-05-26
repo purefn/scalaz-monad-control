@@ -1,4 +1,4 @@
-name := "monad-control"
+name := "scalaz-monad-control"
 
 organization := "org.scalaz"
 
@@ -43,3 +43,7 @@ libraryDependencies ++=
     , "org.scalaz" %% "scalaz-effect"  % "7.1.7"
     )
   )
+
+publishMavenStyle := true
+
+licenses += ("BSD", url("https://opensource.org/licenses/BSD-3-Clause"))
